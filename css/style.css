@@ -1,0 +1,158 @@
+:root {
+  --colorWhite: #fff;
+  --maincolor: #fee715;
+  /* --colorred: #d9232d; */
+  --colorBlack: #101820;
+  --colorGray: #eee;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bakbak One", cursive;
+  font-family: "Patrick Hand", cursive;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bakbak One", cursive;
+  font-family: "Patrick Hand", cursive;
+}
+/*----------- statr in navbar -----------*/
+nav {
+  background-color: var(--colorWhite);
+  z-index: 2;
+}
+
+nav .navbar-brand {
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--maincolortext);
+}
+
+nav .navbar-nav a {
+  color: var(--maincolortext);
+  transition: all 0.1s linear;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav .navbar-nav a:hover {
+  color: var(--colorred);
+}
+
+nav .navbar-nav button {
+  background-color: var(--colorred);
+}
+
+/*----------- statr in navbar -----------*/
+
+/*----------- statr in carousel -----------*/
+
+.carousel .backDark {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--colorBlack),
+    var(--colorBlack)
+  );
+}
+
+.carousel .carousel-caption {
+  z-index: 2;
+}
+
+.carousel .carousel-caption h5 {
+  color: var(--maincolor);
+  font-size: 22px;
+}
+
+.carousel .carousel-caption p {
+  color: var(--colorWhite);
+  font-size: 22px;
+}
+/*----------- end in carousel -----------*/
+
+/*----------- start in about -----------*/
+.about .text-about {
+  text-transform: uppercase;
+  color: var(--maincolor);
+}
+
+.about .card {
+  transition: all 0.1s linear;
+  position: relative;
+  z-index: 1;
+}
+
+.about .card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.about .card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--colorBlack);
+  opacity: 0.2;
+  width: 100%;
+  height: 0;
+  z-index: -1;
+  transition: all 0.2s linear;
+}
+
+.about .card:hover::before {
+  height: 100%;
+}
+
+.about .card img {
+  height: 200px;
+}
+/*----------- end in about -----------*/
+
+/* -------- start form contact -------- */
+#contact .text-contact {
+  text-transform: uppercase;
+  color: var(--maincolor);
+}
+
+#contact .info i {
+  font-size: 20px;
+  color: var(--maincolor);
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #edeff1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact .info i:hover {
+  color: #edeff1;
+  background: var(--maincolor);
+}
+
+#contact .info div h4 {
+  color: var(--colorBlack);
+}
+
+#contact .info div p {
+  color: var(--colorBlack);
+}
+
+#contact .form button {
+  background: var(--maincolor);
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+/* --------- start form  contact---------- */
