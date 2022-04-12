@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- start in css -->
+    <link rel="stylesheet" href="css/dashbordAdmin.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="font_awesome/all.min.css" />
+  </head>
+  <body>
+    <!-- start in sidebar -->
+    <div class="dash container-fluid">
+      <div class="row flex-nowrap position-sticky">
+        <div class="col-2 px-sm-2 px-0 backSide">
+          <div
+            class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 my-4"
+          >
+            <a
+              href="/"
+              class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+            >
+              <span
+                class="fs-5 d-sm-inline position-fixed py-5"
+                style="color: #fee715"
+                >Menu</span
+              >
+            </a>
+            <ul
+              class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-sm-start align-items-sm-start my-2 position-fixed"
+              id="menu"
+            >
+              <li class="nav-item link-div" data-cat=".Home">
+                <a href="#" class="nav-link align-middle px-0 me-auto">
+                  <i class="fa-solid fa-house d-md-none text-white"></i>
+                  <span class="ms-1 d-none d-md-block text-white">Home</span>
+                </a>
+              </li>
+              <li data-cat=".employees" class="link-div">
+                <a
+                  href="#submenu1"
+                  data-bs-toggle="collapse"
+                  class="nav-link px-0 align-middle"
+                >
+                  <i class="fa-solid fa-user d-md-none text-white"></i>
+                  <span class="ms-1 d-none d-md-block text-white"
+                    >employees</span
+                  >
+                </a>
+              </li>
+              <li data-cat=".users" class="link-div">
+                <a href="#" class="nav-link px-0 align-middle">
+                  <i class="fa-solid fa-users d-md-none text-white"></i>
+                  <span class="ms-1 d-none d-md-block text-white"
+                    >users</span
+                  ></a
+                >
+              </li>
+              <li data-cat=".product" class="link-div">
+                <a
+                  href="#submenu2"
+                  data-bs-toggle="collapse"
+                  class="nav-link px-0 align-middle"
+                >
+                  <i class="fa-solid fa-cart-shopping d-md-none"></i>
+                  <span class="ms-1 d-none d-md-block text-white"
+                    >product</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ----------- start in all div ----------- -->
+        <div class="col-10" id="main">
+          <!-- 1 -->
+          <div class="Home col py-5 item" style="display: block">
+            <div class="container">
+              <div class="content-home">
+                <h1 class="text-center title my-4">employees</h1>
+                <table class="table table-bordered w-75 m-auto">
+                  <thead>
+                    <tr>
+                      <th scope="col">id</th>
+                      <th scope="col">name</th>
+                      <th scope="col">phone</th>
+                      <th scope="col">addres</th>
+                      <th scope="col">name jop</th>
+                      <th scope="col">price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>0933333333</td>
+                      <td>damscus</td>
+                      <td>web developer</td>
+                      <td>5000$</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                      <td>@fat</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry the Bird</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                      <td>@fat</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="content-home">
+                <h1 class="text-center title my-4">users</h1>
+                <table class="table table-bordered w-75 m-auto">
+                  <thead>
+                    <tr>
+                      <th scope="col">id</th>
+                      <th scope="col">name</th>
+                      <th scope="col">phone</th>
+                      <th scope="col">addres</th>
+                      <th scope="col">name jop</th>
+                      <th scope="col">price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>0933333333</td>
+                      <td>damscus</td>
+                      <td>web developer</td>
+                      <td>5000$</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                      <td>@fat</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry the Bird</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                      <td>@fat</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="content-home">
+                <h1 class="text-center title my-4">product</h1>
+                <table class="table table-bordered w-75 m-auto">
+                  <thead>
+                    <tr>
+                      <th scope="col">id</th>
+                      <th scope="col">name</th>
+                      <th scope="col">phone</th>
+                      <th scope="col">addres</th>
+                      <th scope="col">name jop</th>
+                      <th scope="col">price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>0933333333</td>
+                      <td>damscus</td>
+                      <td>web developer</td>
+                      <td>5000$</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                      <td>@fat</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry the Bird</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                      <td>@fat</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="employees col py-5 item">
+              <div class="container">
+                <div class="content-employees">
+                  <h1 class="text-center title my-4">employees</h1>
+                  <table class="table table-bordered w-75 m-auto">
+                    <thead>
+                      <tr>
+                        <th scope="col">name</th>
+                        <th scope="col">phone</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>0933333333</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+          </div>
+          <!-- 3 -->
+          <div class="users col py-5 item">
+            <h1 class="text-center">salah</h1>
+          </div>
+          <!-- 4 -->
+          <div class="product col py-5 item">
+            <h1 class="text-center">lolo</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end in sidebar -->
+    <!-- start in js -->
+    <script src="js/dashbordAdmin.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- font awsome -->
+    <script src="font_awesome/all.min.js"></script>
+  </body>
+</html>

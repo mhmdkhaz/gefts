@@ -1,0 +1,47 @@
+:root {
+  --colorWhite: #fff;
+  --maincolor: #fee715;
+  /* --colorred: #d9232d; */
+  --colorBlack: #101820;
+  --colorGray: #eee;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bakbak One", cursive;
+  font-family: "Patrick Hand", cursive;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bakbak One", cursive;
+  font-family: "Patrick Hand", cursive;
+}
+/* --------- start in sidebar -------- */
+.backSide {
+  background-color: var(--colorBlack);
+}
+
+.dash .itemsEmoplye li a {
+  color: var(--maincolor);
+}
+
+.dash .link-div a {
+  text-decoration: none;
+}
+
+.dash #main .item {
+  display: none;
+}
+
+/*  ------ start in all div -------  */
+.dash #main .Home .title {
+  color: var(--maincolor);
+}
+/*  ------ end in all div -------  */
+
+/* ------- end in sidebar ------------ */

@@ -27,6 +27,26 @@ body {
   font-family: "Bakbak One", cursive;
   font-family: "Patrick Hand", cursive;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--maincolor);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c2af00;
+}
 /*----------- statr in navbar -----------*/
 nav {
   background-color: var(--colorWhite);
