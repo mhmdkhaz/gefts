@@ -55,8 +55,8 @@ body {
 }
 
 /* .dash #main .item {
-  display: none;
-} */
+    display: none;
+  } */
 
 .dash #main table th {
   background-color: var(--colorBlack);
@@ -80,3 +80,16 @@ body {
 /*  ------ end in all div -------  */
 
 /* ------- end in sidebar ------------ */
+
+/* ------------------------  start add user ----------------------- */
+.dash #main .employees .AddUser {
+  background-color: var(--maincolor);
+}
+
+.dash #main .employees .AddUser a {
+  text-decoration: none;
+  color: var(--colorBlack);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/* ------------------------  end add user ----------------------- */

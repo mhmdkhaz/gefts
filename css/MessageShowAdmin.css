@@ -54,10 +54,6 @@ body {
   text-decoration: none;
 }
 
-/* .dash #main .item {
-  display: none;
-} */
-
 .dash #main table th {
   background-color: var(--colorBlack);
   color: var(--colorWhite);
@@ -80,3 +76,17 @@ body {
 /*  ------ end in all div -------  */
 
 /* ------- end in sidebar ------------ */
+
+/* ----------- start in main ----------------- */
+#main .content-mesage {
+  background-color: #eee;
+}
+
+#main .message .text h2 {
+  color: var(--maincolor);
+}
+
+#main .message .text h2 span {
+  color: var(--colorBlack);
+}
+/* ----------- end in main ----------------- */

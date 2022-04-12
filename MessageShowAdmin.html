@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- start in css -->
+    <link rel="stylesheet" href="css/MessageShowAdmin.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="font_awesome/all.min.css" />
+  </head>
+  <body>
+        <!-- start in sidebar -->
+        <div class="dash container-fluid">
+          <div class="row flex-nowrap position-sticky">
+            <div class="col-2 px-sm-2 px-0 backSide">
+              <div
+                class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 my-4"
+              >
+                <a
+                  href="/"
+                  class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+                >
+                  <span
+                    class="fs-5 d-sm-inline position-fixed py-5"
+                    style="color: #fee715"
+                    >Menu</span
+                  >
+                </a>
+                <ul
+                  class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-sm-start align-items-sm-start my-3 position-fixed"
+                  id="menu"
+                >
+                  <li class="nav-item link-div" data-cat=".Home">
+                    <a href="dashbordAdmin.html" class="nav-link align-middle px-0 me-auto">
+                      <i class="fa-solid fa-house text-white"></i>
+                      <span class="ms-1 d-none d-md-inline text-white">Home</span>
+                    </a>
+                  </li>
+    
+                  <li class="nav-item link-div" data-cat=".Home">
+                    <a
+                      href="employeAdmin.html"
+                      class="nav-link align-middle px-0 me-auto"
+                    >
+                      <i class="fa-solid fa-user text-white"></i>
+                      <span class="ms-1 d-none d-md-inline text-white"
+                        >employees</span
+                      >
+                    </a>
+                  </li>
+    
+                  <li class="nav-item link-div" data-cat=".Home">
+                    <a
+                      href="addEmployeAdmin.html"
+                      class="nav-link align-middle px-0 me-auto"
+                    >
+                      <i class="fa-solid fa-user-plus text-white"></i>
+                      <span class="ms-1 d-none d-md-inline text-white"
+                        >add employes</span
+                      >
+                    </a>
+                  </li>
+    
+                  <li>
+                    <a href="#" class="nav-link px-0 align-middle">
+                      <i class="fa-solid fa-users text-white"></i>
+                      <span class="ms-1 d-none d-md-inline text-white"
+                        >users</span
+                      ></a
+                    >
+                  </li>
+                  <li data-cat=".product" class="link-div">
+                    <a
+                      href="#submenu2"
+                      data-bs-toggle="collapse"
+                      class="nav-link px-0 align-middle"
+                    >
+                      <i class="fa-solid fa-cart-shopping text-white"></i>
+                      <span class="ms-1 d-none d-md-inline text-white"
+                        >product</span
+                      ></a
+                    >
+                  </li>
+    
+                  <li class="nav-item link-div" data-cat=".Home">
+                    <a
+                      href="MessageShowAdmin.html"
+                      class="nav-link align-middle px-0 me-auto"
+                    >
+                      <i class="fa-solid fa-message text-white"></i>
+                      <span class="ms-1 d-none d-md-inline"  style="color: #fee715"
+                        >message</span
+                      >
+                    </a>
+                  </li>
+
+                  <li class="nav-item link-div" data-cat=".Home">
+                    <a
+                      href="MessageShowAdmin.html"
+                      class="nav-link align-middle px-0 me-auto"
+                    >
+                    <i class="fa-solid fa-arrow-right-from-bracket text-white"></i>
+                      <span class="ms-1 d-none d-md-inline text-white"
+                        >log out</span
+                      >
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- ------------ end in slide  -->
+        <!-- ----------- start in all div ----------- -->
+        <div class="col-10" id="main">
+          <h1 class="text-center">message</h1>
+          <div class="content-mesage my-4 py-4">
+            <div class="container">
+              <div class="row message">
+                <div class="col-lg-5 col-md-12 my-auto">
+                  <img src="images/undraw_my_notifications_re_ehmk.svg" class="w-100" alt="">
+                </div>
+                <div class="col-lg-7 col-md-12 my-5 text">
+                  <h2>name : <span>moahmmed khazaa</span></h2>
+                  <h2>emai : <span>aaaaa@gmial.com</span></h2>
+                  <h2>subject : <span>sub</span></h2>
+                  <h2>message : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, dolorum.</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- end in sidebar -->
+    <!-- start in js -->
+    <script src="js/dashbordAdmin.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- font awsome -->
+    <script src="font_awesome/all.min.js"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- start in css -->
+    <link rel="stylesheet" href="css/employeAdmin.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="font_awesome/all.min.css" />
+  </head>
+  <body>
+       <!-- start in sidebar -->
+       <div class="dash container-fluid">
+        <div class="row flex-nowrap position-sticky">
+          <div class="col-2 px-sm-2 px-0 backSide">
+            <div
+              class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 my-4"
+            >
+              <a
+                href="/"
+                class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+              >
+                <span
+                  class="fs-5 d-sm-inline position-fixed py-5"
+                  style="color: #fee715"
+                  >Menu</span
+                >
+              </a>
+              <ul
+                class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-sm-start align-items-sm-start my-3 position-fixed"
+                id="menu"
+              >
+                <li class="nav-item link-div" data-cat=".Home">
+                  <a href="dashbordAdmin.html" class="nav-link align-middle px-0 me-auto">
+                    <i class="fa-solid fa-house text-white"></i>
+                    <span class="ms-1 d-none d-md-inline text-white">Home</span>
+                  </a>
+                </li>
+  
+                <li class="nav-item link-div" data-cat=".Home">
+                  <a
+                    href="employeAdmin.html"
+                    class="nav-link align-middle px-0 me-auto"
+                  >
+                    <i class="fa-solid fa-user text-white"></i>
+                    <span class="ms-1 d-none d-md-inline " style="color: #fee715">employees</span
+                    >
+                  </a>
+                </li>
+  
+                <li class="nav-item link-div" data-cat=".Home">
+                  <a
+                    href="addEmployeAdmin.html"
+                    class="nav-link align-middle px-0 me-auto"
+                  >
+                    <i class="fa-solid fa-user-plus text-white"></i>
+                    <span class="ms-1 d-none d-md-inline text-white"
+                      >add employes</span
+                    >
+                  </a>
+                </li>
+  
+                <li>
+                  <a href="#" class="nav-link px-0 align-middle">
+                    <i class="fa-solid fa-users text-white"></i>
+                    <span class="ms-1 d-none d-md-inline text-white"
+                      >users</span
+                    ></a
+                  >
+                </li>
+                <li data-cat=".product" class="link-div">
+                  <a
+                    href="#submenu2"
+                    data-bs-toggle="collapse"
+                    class="nav-link px-0 align-middle"
+                  >
+                    <i class="fa-solid fa-cart-shopping text-white"></i>
+                    <span class="ms-1 d-none d-md-inline text-white"
+                      >product</span
+                    ></a
+                  >
+                </li>
+  
+                <li class="nav-item link-div" data-cat=".Home">
+                  <a
+                    href="MessageShowAdmin.html"
+                    class="nav-link align-middle px-0 me-auto"
+                  >
+                    <i class="fa-solid fa-message text-white"></i>
+                    <span class="ms-1 d-none d-md-inline text-white"
+                      >message</span
+                    >
+                  </a>
+                </li>
+
+                <li class="nav-item link-div" data-cat=".Home">
+                  <a
+                    href="MessageShowAdmin.html"
+                    class="nav-link align-middle px-0 me-auto"
+                  >
+                  <i class="fa-solid fa-arrow-right-from-bracket text-white"></i>
+                    <span class="ms-1 d-none d-md-inline text-white"
+                      >log out</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- ------------ end in slide  -->
+        <!-- ----------- start in all div ----------- -->
+        <div class="col-10" id="main">
+          <div class="employees col py-5 item">
+              <div class="container">
+                <div class="content-employees">
+                  <h1 class="text-center title my-4" style="color: #fee715;">employees</h1>
+                  <table class="table table-bordered w-75 m-auto">
+                    <thead>
+                      <tr>
+                        <th scope="col">name</th>
+                        <th scope="col">phone</th>
+                        <th scope="col">updates</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Mark</td>
+                        <td>0933333333</td>
+                        <td class="d-flex justify-content-evenly">
+                          <button type="button" class="btn btn-danger">delete</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td class="d-flex justify-content-evenly">
+                          <button type="button" class="btn btn-danger">delete</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="AddUser w-75 m-auto  my-4 py-2">
+                    <div class="container d-flex justify-content-center">
+                      <a href="addEmployeAdmin.html">
+                        <span>add user</span>
+                        <button type="button" class="btn btn-success">add</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end in sidebar -->
+    <!-- start in js -->
+    <script src="js/dashbordAdmin.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- font awsome -->
+    <script src="font_awesome/all.min.js"></script>
+  </body>
+</html>

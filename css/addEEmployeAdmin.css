@@ -55,8 +55,8 @@ body {
 }
 
 /* .dash #main .item {
-  display: none;
-} */
+    display: none;
+  } */
 
 .dash #main table th {
   background-color: var(--colorBlack);
@@ -80,3 +80,18 @@ body {
 /*  ------ end in all div -------  */
 
 /* ------- end in sidebar ------------ */
+
+/* ------------ start add user */
+#main form label {
+  color: var(--colorBlack);
+  text-transform: uppercase;
+}
+
+#main form input {
+  border: 1px solid var(--colorBlack);
+}
+
+#main form button {
+  background-color: var(--colorBlack);
+}
+/* ------------ end add user */

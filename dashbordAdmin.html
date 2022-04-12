@@ -38,31 +38,46 @@
               >
             </a>
             <ul
-              class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-sm-start align-items-sm-start my-2 position-fixed"
+              class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-sm-start align-items-sm-start my-3 position-fixed"
               id="menu"
             >
               <li class="nav-item link-div" data-cat=".Home">
                 <a href="#" class="nav-link align-middle px-0 me-auto">
-                  <i class="fa-solid fa-house d-md-none text-white"></i>
-                  <span class="ms-1 d-none d-md-block text-white">Home</span>
+                  <i class="fa-solid fa-house text-white"></i>
+                  <span class="ms-1 d-none d-md-inline" style="color: #fee715"
+                    >Home</span
+                  >
                 </a>
               </li>
-              <li data-cat=".employees" class="link-div">
+
+              <li class="nav-item link-div" data-cat=".Home">
                 <a
-                  href="#submenu1"
-                  data-bs-toggle="collapse"
-                  class="nav-link px-0 align-middle"
+                  href="employeAdmin.html"
+                  class="nav-link align-middle px-0 me-auto"
                 >
-                  <i class="fa-solid fa-user d-md-none text-white"></i>
-                  <span class="ms-1 d-none d-md-block text-white"
+                  <i class="fa-solid fa-user text-white"></i>
+                  <span class="ms-1 d-none d-md-inline text-white"
                     >employees</span
                   >
                 </a>
               </li>
-              <li data-cat=".users" class="link-div">
+
+              <li class="nav-item link-div" data-cat=".Home">
+                <a
+                  href="addEmployeAdmin.html"
+                  class="nav-link align-middle px-0 me-auto"
+                >
+                  <i class="fa-solid fa-user-plus text-white"></i>
+                  <span class="ms-1 d-none d-md-inline text-white"
+                    >add employes</span
+                  >
+                </a>
+              </li>
+
+              <li>
                 <a href="#" class="nav-link px-0 align-middle">
-                  <i class="fa-solid fa-users d-md-none text-white"></i>
-                  <span class="ms-1 d-none d-md-block text-white"
+                  <i class="fa-solid fa-users text-white"></i>
+                  <span class="ms-1 d-none d-md-inline text-white"
                     >users</span
                   ></a
                 >
@@ -73,15 +88,43 @@
                   data-bs-toggle="collapse"
                   class="nav-link px-0 align-middle"
                 >
-                  <i class="fa-solid fa-cart-shopping d-md-none"></i>
-                  <span class="ms-1 d-none d-md-block text-white"
+                  <i class="fa-solid fa-cart-shopping text-white"></i>
+                  <span class="ms-1 d-none d-md-inline text-white"
                     >product</span
                   ></a
                 >
               </li>
+
+              <li class="nav-item link-div" data-cat=".Home">
+                <a
+                  href="MessageShowAdmin.html"
+                  class="nav-link align-middle px-0 me-auto"
+                >
+                  <i class="fa-solid fa-message text-white"></i>
+                  <span class="ms-1 d-none d-md-inline text-white"
+                    >message</span
+                  >
+                </a>
+              </li>
+
+              <li class="nav-item link-div" data-cat=".Home">
+                <a
+                  href="MessageShowAdmin.html"
+                  class="nav-link align-middle px-0 me-auto"
+                >
+                  <i
+                    class="fa-solid fa-arrow-right-from-bracket text-white"
+                  ></i>
+                  <span class="ms-1 d-none d-md-inline text-white"
+                    >log out</span
+                  >
+                </a>
+              </li>
             </ul>
           </div>
         </div>
+        <!-- ------------ end in slide  -->
+
         <!-- ----------- start in all div ----------- -->
         <div class="col-10" id="main">
           <!-- 1 -->
@@ -213,43 +256,6 @@
                 </table>
               </div>
             </div>
-          </div>
-          <!-- 2 -->
-          <div class="employees col py-5 item">
-              <div class="container">
-                <div class="content-employees">
-                  <h1 class="text-center title my-4">employees</h1>
-                  <table class="table table-bordered w-75 m-auto">
-                    <thead>
-                      <tr>
-                        <th scope="col">name</th>
-                        <th scope="col">phone</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Mark</td>
-                        <td>0933333333</td>
-                      </tr>
-                      <tr>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                      </tr>
-                      <tr>
-                        <td>Larry the Bird</td>
-                        <td>@twitter</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-          </div>
-          <!-- 3 -->
-          <div class="users col py-5 item">
-            <h1 class="text-center">salah</h1>
-          </div>
-          <!-- 4 -->
-          <div class="product col py-5 item">
-            <h1 class="text-center">lolo</h1>
           </div>
         </div>
       </div>
