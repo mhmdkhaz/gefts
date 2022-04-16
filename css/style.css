@@ -1,7 +1,6 @@
 :root {
   --colorWhite: #fff;
   --maincolor: #fee715;
-  /* --colorred: #d9232d; */
   --colorBlack: #101820;
   --colorGray: #eee;
 }
@@ -41,10 +40,33 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #c2af00;
 }
-/*----------- statr in navbar -----------*/
+
+/* ------------------------------ start in back to top ----------------------------------------------------------- */
+.backToTop {
+  position: fixed;
+  right: 5%;
+  bottom: 100%;
+  z-index: 5;
+  transition: all 0.5s linear;
+}
+
+.backToTop button {
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+  outline: none;
+  border: 1px solid var(--maincolor);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 15px;
+}
+/* ------------------------------ end in back to top ----------------------------------------------------------- */
+/*-------------------------------------------------- statr in navbar ----------------------------------------------*/
 nav {
   background-color: var(--colorWhite);
-  z-index: 2;
+  z-index: 4;
+  width: 100%;
 }
 
 nav .navbar-brand {
@@ -69,9 +91,9 @@ nav .navbar-nav button {
   background-color: var(--colorred);
 }
 
-/*----------- statr in navbar -----------*/
+/*-------------------------------------------------- end in navbar ----------------------------------------------*/
 
-/*----------- statr in carousel -----------*/
+/*-------------------------------------------------- statr in carousel ----------------------------------------------*/
 
 .carousel .backDark {
   background-image: linear-gradient(
@@ -94,9 +116,9 @@ nav .navbar-nav button {
   color: var(--colorWhite);
   font-size: 22px;
 }
-/*----------- end in carousel -----------*/
+/*-------------------------------------------------- end in carousel ----------------------------------------------*/
 
-/*----------- start in about -----------*/
+/*-------------------------------------------------- statr in abot ----------------------------------------------*/
 .about .text-about {
   text-transform: uppercase;
   color: var(--maincolor);
@@ -132,9 +154,9 @@ nav .navbar-nav button {
 .about .card img {
   height: 200px;
 }
-/*----------- end in about -----------*/
+/*-------------------------------------------------- end in abot ----------------------------------------------*/
 
-/* -------- start form contact -------- */
+/*-------------------------------------------------- statr in ocntact ----------------------------------------------*/
 #contact .text-contact {
   text-transform: uppercase;
   color: var(--maincolor);
@@ -175,10 +197,141 @@ nav .navbar-nav button {
   transition: 0.4s;
   border-radius: 4px;
 }
-/* --------- start form  contact---------- */
+/*-------------------------------------------------- end in ocntact ----------------------------------------------*/
 
-/* start in footer */
+/*-------------------------------------------------- end in cart -------------------------------------------------*/
+.cart .card {
+  transform: scale(0.9);
+  transition: all 0.1s linear;
+  border: 2px solid var(--colorBlack);
+}
+
+.cart .card:hover {
+  transform: scale(1);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cart .card form button {
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+  font-size: 1.4rem;
+}
+/*-------------------------------------------------- end in cart ----------------------------------------------*/
+
+/*-------------------------------------------------- start in product ----------------------------------------------*/
+#product .box-product .content-img .product-wrap {
+  transform: scale(0);
+  transition: all 0.2s linear;
+}
+
+#product .box-product .content-img:hover .product-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(1);
+}
+
+#product .box-product .content-img .product-wrap h4 {
+  font-size: 1.5rem;
+  color: var(--maincolor);
+  font-weight: 800;
+}
+
+#product .box-product .content-img .product-wrap p {
+  color: var(--colorWhite);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+#product .box-product .content-img .product-wrap button {
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+  border: 1px solid var(--maincolor);
+}
+
+#product .box-product .content-img .shadow {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  transition: all 0.1s linear;
+}
+
+#product .box-product .content-img:hover .shadow {
+  background-color: var(--colorBlack);
+}
+.activeFilter {
+  background-color: var(--colorBlack);
+  color: var(--maincolor);
+}
+/* ------------------------------------------------- end in product ------------------------------------------ */
+
+/* ------------------------------------------------- start in details product ---------------------------------- */
+.detailsProduct .card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(0.9);
+  transition: all 0.1s linear;
+  position: relative;
+}
+
+.detailsProduct .card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 4px;
+  background-color: var(--colorBlack);
+  transition: all 0.2s linear;
+}
+
+.detailsProduct .card:hover::before {
+  width: 100%;
+}
+
+.detailsProduct .card::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 4px;
+  background-color: var(--colorBlack);
+  transition: all 0.2s linear;
+}
+
+.detailsProduct .card:hover::after {
+  width: 100%;
+}
+
+.detailsProduct .card:hover {
+  transform: scale(1);
+}
+
+.detailsProduct .card img {
+  border-bottom: 2px solid var(--colorBlack);
+}
+
+.detailsProduct .card h5 {
+  color: var(--maincolor);
+  background-color: var(--colorBlack);
+}
+
+.detailsProduct .card p {
+  color: var(--colorBlack);
+}
+
+.detailsProduct .card button {
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+  border: 2px solid var(--maincolor);
+}
+/* ------------------------------------------------- end in details product ---------------------------------- */
+
+/*-------------------------------------------------- start in footer ------------------------------------------*/
 footer {
   background-color: var(--colorBlack);
 }
-/* end in footer */
+/*-------------------------------------------------- end in footer ----------------------------------------------*/

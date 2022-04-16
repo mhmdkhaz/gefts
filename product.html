@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="font_awesome/all.min.css" />
+
+    <!-- start in aos -->
+    <!-- Vendor CSS Files -->
+    <link href="vendor/aos/aos.css" rel="stylesheet" />
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- start in back to the top -->
+    <div class="backToTop" id="backToTop">
+      <button id="toTop">top</button>
+    </div>
+    <!-- end in back to the top -->
+    <!-- -------------------------- start nav ---------------------- -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light position-fixed"
+      id="navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">gefts</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a aria-current="page" href="index.html">Home</a>
+            <a href="contact.html">contact</a>
+            <a href="product.html" style="color: #fee715ff">product</a>
+            <a href="login.html">log in</a>
+            <a href="singup.html">singn up</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- --------------------------- end nav -------------------------------- -->
+
+    <!-- ----------------------------------- start product ------------------------ -->
+    <section id="product">
+      <div class="container">
+        <div class="section-title">
+          <h2>product</h2>
+          <p>RECENT WORKS</p>
+        </div>
+        <div class="choose">
+          <ul
+            id="product-flters"
+            class="d-flex justify-content-center list-unstyled"
+          >
+            <li data-filter=".all" class="activeFilter mx-2 px-4">All</li>
+            <li data-filter=".filter-app" class="mx-2 px-4">chose</li>
+            <li data-filter=".filter-card" class="mx-2 px-4">gefts</li>
+            <li data-filter=".filter-web" class="mx-2 px-4">card</li>
+          </ul>
+        </div>
+        <div class="row product my-5">
+          <div
+            class="box-product col-lg-4 col-md-6 col-sm-12 all filter-app my-3"
+          >
+            <div class="content-img position-relative w-100">
+              <img
+                src="images/filter/1.jpg"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+              <div class="content-shadowText">
+                <div
+                  class="shadow position-absolute top-0 start-0 w-100 h-100"
+                ></div>
+                <div class="product-wrap position-absolute top-50 w-100 h-100">
+                  <h4>prodcut</h4>
+                  <p class="text-center">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="detailsProduct.html"
+                    ><button class="btn my-2">details</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="box-product col-lg-4 col-md-6 col-sm-12 all filter-app my-3"
+          >
+            <div class="content-img position-relative w-100">
+              <img
+                src="images/filter/2.jpg"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+              <div class="content-shadowText">
+                <div
+                  class="shadow position-absolute top-0 start-0 w-100 h-100"
+                ></div>
+                <div class="product-wrap position-absolute top-50 w-100 h-100">
+                  <h4>prodcut</h4>
+                  <p class="text-center">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="detailsProduct.html"
+                    ><button class="btn my-2">details</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="box-product col-lg-4 col-md-6 col-sm-12 all filter-app my-3"
+          >
+            <div class="content-img position-relative w-100">
+              <img
+                src="images/filter/3.jpg"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+              <div class="content-shadowText">
+                <div
+                  class="shadow position-absolute top-0 start-0 w-100 h-100"
+                ></div>
+                <div class="product-wrap position-absolute top-50 w-100 h-100">
+                  <h4>prodcut</h4>
+                  <p class="text-center">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="detailsProduct.html"
+                    ><button class="btn my-2">details</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="box-product col-lg-4 col-md-6 col-sm-12 all filter-card my-3"
+          >
+            <div class="content-img position-relative w-100">
+              <img
+                src="images/filter/4.jpg"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+              <div class="content-shadowText">
+                <div
+                  class="shadow position-absolute top-0 start-0 w-100 h-100"
+                ></div>
+                <div class="product-wrap position-absolute top-50 w-100 h-100">
+                  <h4>prodcut</h4>
+                  <p class="text-center">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="detailsProduct.html"
+                    ><button class="btn my-2">details</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="box-product col-lg-4 col-md-6 col-sm-12 all filter-card my-3"
+          >
+            <div class="content-img position-relative w-100">
+              <img
+                src="images/filter/5.jpg"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+              <div class="content-shadowText">
+                <div
+                  class="shadow position-absolute top-0 start-0 w-100 h-100"
+                ></div>
+                <div class="product-wrap position-absolute top-50 w-100 h-100">
+                  <h4>prodcut</h4>
+                  <p class="text-center">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="detailsProduct.html"
+                    ><button class="btn my-2">details</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="box-product col-lg-4 col-md-6 col-sm-12 all filter-card my-3"
+          >
+            <div class="content-img position-relative w-100">
+              <img
+                src="images/filter/6.jpg"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+              <div class="content-shadowText">
+                <div
+                  class="shadow position-absolute top-0 start-0 w-100 h-100"
+                ></div>
+                <div class="product-wrap position-absolute top-50 w-100 h-100">
+                  <h4>prodcut</h4>
+                  <p class="text-center">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="detailsProduct.html"
+                    ><button class="btn my-2">details</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="box-product col-lg-4 col-md-6 col-sm-12 all filter-web my-3"
+          >
+            <div class="content-img position-relative w-100">
+              <img
+                src="images/filter/7.jpg"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+              <div class="content-shadowText">
+                <div
+                  class="shadow position-absolute top-0 start-0 w-100 h-100"
+                ></div>
+                <div class="product-wrap position-absolute top-50 w-100 h-100">
+                  <h4>prodcut</h4>
+                  <p class="text-center">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="detailsProduct.html"
+                    ><button class="btn my-2">details</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="box-product col-lg-4 col-md-6 col-sm-12 all filter-web my-3"
+          >
+            <div class="content-img position-relative w-100">
+              <img
+                src="images/filter/8.jpg"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+              <div class="content-shadowText">
+                <div
+                  class="shadow position-absolute top-0 start-0 w-100 h-100"
+                ></div>
+                <div class="product-wrap position-absolute top-50 w-100 h-100">
+                  <h4>prodcut</h4>
+                  <p class="text-center">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="detailsProduct.html"
+                    ><button class="btn my-2">details</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="box-product col-lg-4 col-md-6 col-sm-12 all filter-web my-3"
+          >
+            <div class="content-img position-relative w-100">
+              <img
+                src="images/filter/9.jpg"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+              <div class="content-shadowText">
+                <div
+                  class="shadow position-absolute top-0 start-0 w-100 h-100"
+                ></div>
+                <div class="product-wrap position-absolute top-50 w-100 h-100">
+                  <h4>prodcut</h4>
+                  <p class="text-center">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="detailsProduct.html"
+                    ><button class="btn my-2">details</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------------- end product --------------------------- -->
+
+    <!-- ---------------------- start in footer  ----------------------------- -->
+    <footer class="text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input
+                    type="email"
+                    id="form5Example21"
+                    class="form-control"
+                  />
+                  <label class="form-label" for="form5Example21"
+                    >Email address</label
+                  >
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribe
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
+            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
+            sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">social media</h5>
+
+              <ul class="list-unstyled mb-0">
+                <!-- Facebook -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <!-- Twitter -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+
+                <!-- Google -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+                <!-- Instagram -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Home</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">about</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">services</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">contact</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">gefts.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!--end  in footer -->
+
+    <!-- javascript p-2 -->
+    <script src="js/main.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- font awsome -->
+    <script src="font_awesome/all.min.js"></script>
+
+    <!-- start in aos -->
+    <script src="vendor/aos/aos.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  </body>
+</html>

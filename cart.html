@@ -44,95 +44,109 @@
           <div class="navbar-nav ms-auto">
             <a aria-current="page" href="index.html">Home</a>
             <a href="product.html">product</a>
-            <a href="cart.html">cart</a>
-            <a href="login.html" style="color: #fee715ff">contact</a>
+            <a href="contact">contact</a>
+            <a href="#" style="color: #fee715ff">cart</a>
           </div>
         </div>
       </div>
     </nav>
     <!-- end nav -->
 
-    <!-- start form contact -->
-    <section id="contact" class="contact my-4">
-      <div class="container">
-        <h1 class="text-contact text-center">contact</h1>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address d-flex flex-row">
-                <i class="icofont-google-map"></i>
-                <div class="px-4">
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div>
+    <!-- ------------ start in cart -------------- -->
 
-              <div class="email d-flex flex-row">
-                <i class="icofont-envelope"></i>
-                <div class="px-4">
-                  <h4>Email:</h4>
-                  <p>info@example.com</p>
-                </div>
-              </div>
-
-              <div class="phone d-flex flex-row">
-                <i class="icofont-phone"></i>
-                <div class="px-4">
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 55s</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-8">
-            <div class="form">
+    <div class="cart container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 m-3">
+          <div class="card">
+            <img src="images/banner-01.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">name product</h5>
+              <p class="card-text">count : 10</p>
+              <p class="card-text">price : 500$</p>
+              <p class="card-text">date : 2/2/2000</p>
               <form class="row g-3">
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <input
                     type="text"
                     class="form-control"
                     id="inputEmail4"
-                    placeholder="your name"
+                    placeholder="enter address"
                     autofocus
                   />
                 </div>
-                <div class="col-md-6">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="inputPassword4"
-                    placeholder="Your Email"
-                  />
+                <div class="col-md-12">
+                  <input type="date" class="form-control" id="inputEmail4" />
                 </div>
-                <div class="col-12">
+                <div class="col-12 d-flex justify-content-center">
+                  <button class="btn">send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 m-3">
+          <div class="card">
+            <img src="images/banner-01.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">name product</h5>
+              <p class="card-text">count : 10</p>
+              <p class="card-text">price : 500$</p>
+              <p class="card-text">date : 2/2/2000</p>
+              <form class="row g-3">
+                <div class="col-md-12">
                   <input
                     type="text"
                     class="form-control"
-                    id="inputAddress"
-                    placeholder="Subject"
+                    id="inputEmail4"
+                    placeholder="enter address"
+                    autofocus
                   />
                 </div>
-                <div class="mb-3">
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="7"
-                    placeholder="Message"
-                  ></textarea>
+                <div class="col-md-12">
+                  <input type="date" class="form-control" id="inputEmail4" />
                 </div>
                 <div class="col-12 d-flex justify-content-center">
-                  <button type="submit" class="btn btn-primary">Sign in</button>
+                  <button class="btn">send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 m-3">
+          <div class="card">
+            <img src="images/banner-01.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">name product</h5>
+              <p class="card-text">count : 10</p>
+              <p class="card-text">price : 500$</p>
+              <p class="card-text">date : 2/2/2000</p>
+              <form class="row g-3">
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputEmail4"
+                    placeholder="enter address"
+                    autofocus
+                  />
+                </div>
+                <div class="col-md-12">
+                  <input type="date" class="form-control" id="inputEmail4" />
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                  <button class="btn">send</button>
                 </div>
               </form>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- end form  contact-->
+    </div>
+    <!-- ------------ end in cart -------------- -->
 
-    <!-- start in footer -->
+    <!-- -------------  start in footer ---------------------- -->
     <footer class="text-center text-white">
       <!-- Grid container -->
       <div class="container p-4">
@@ -308,7 +322,7 @@
       </div>
       <!-- Copyright -->
     </footer>
-    <!--end  in footer -->
+    <!-- --------------------- end  in footer ---------------------------------- -->
     <!-- javascript p-2 -->
     <script src="js/main.js"></script>
     <!-- bootstrap js -->

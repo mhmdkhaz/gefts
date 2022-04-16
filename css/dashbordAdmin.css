@@ -41,7 +41,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #314962;
 }
-/* --------- start in sidebar -------- */
+/* ------------------------------------------------------ start in sidebar ------------------------------------------- */
 .backSide {
   background-color: var(--colorBlack);
 }
@@ -68,4 +68,124 @@ body {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-/* ------- end in sidebar ------------ */
+/*------------------------------------------------------ end in sidebar ---------------------------------------------------- */
+
+/* -------------------------------------------- start add employee --------------------------------------------------------- */
+#addEmployeAdmin .Home .title {
+  color: var(--maincolor);
+}
+
+#addEmployeAdmin form label {
+  color: var(--colorBlack);
+  text-transform: uppercase;
+}
+
+#addEmployeAdmin form input {
+  border: 1px solid var(--colorBlack);
+}
+
+#addEmployeAdmin form button {
+  background-color: var(--colorBlack);
+}
+/* -------------------------------------------- end add employee --------------------------------------------------------- */
+
+/* --------------------------------------------start in employe ----------------------------------------------------------- */
+#employeAdmin table th {
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+}
+
+#employeAdmin .content-home table {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#employeAdmin .content-employees table {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#employeAdmin .Home .title {
+  color: var(--maincolor);
+}
+
+#employeAdmin .AddUser {
+  background-color: var(--maincolor);
+}
+
+#employeAdmin .AddUser a {
+  text-decoration: none;
+  color: var(--colorBlack);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/* ------------------------------------------------- end in employe -------------------------------------------------------- */
+
+/* -------------------------------------------- start in message show admin --------------------------------------------------------- */
+#MessageShowAdmin table th {
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+}
+
+#MessageShowAdmin .content-home table {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#MessageShowAdmin .content-employees table {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#MessageShowAdmin .Home .title {
+  color: var(--maincolor);
+}
+
+#MessageShowAdmin .content-mesage {
+  background-color: #eee;
+}
+
+#MessageShowAdmin .message .text h2 {
+  color: var(--maincolor);
+}
+
+#MessageShowAdmin .message .text h2 span {
+  color: var(--colorBlack);
+}
+/* -------------------------------------------- end in message show admin --------------------------------------------------------- */
+
+/* ------------------------------------------------- start in prodcut admin -------------------------------------------------- */
+#ProductAdmin table th,
+#ShowCart table th {
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+}
+
+#ProductAdmin .content-home table,
+#ShowCart .content-home table {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#ProductAdmin .content-employees table,
+#ShowCart .content-employees table {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#ProductAdmin .wishlist-box-main table tr td img,
+#ShowCart .wishlist-box-main table tr td img {
+  height: 15vh;
+}
+
+#ProductAdmin .wishlist-box-main table tr td a,
+#ShowCart .wishlist-box-main table tr td a {
+  text-decoration: none;
+  color: var(--colorBlack);
+  font-size: 1.4rem;
+}
+
+#ProductAdmin .wishlist-box-main table tr td button {
+  background-color: var(--colorBlack);
+}
+/* ------------------------------------------------- end in prodcut admin -------------------------------------------------- */

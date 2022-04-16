@@ -41,15 +41,15 @@
               class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-sm-start align-items-sm-start my-3 position-fixed"
               id="menu"
             >
-              <li class="nav-item link-div" data-cat=".Home">
-                <a
-                  href="dashbordAdmin.html"
-                  class="nav-link align-middle px-0 me-auto"
-                >
+              <li>
+                <a href="dashbordAdmin.html" class="nav-link px-0 align-middle">
                   <i class="fa-solid fa-users text-white"></i>
-                  <span class="ms-1 d-none d-md-inline text-white">users</span>
-                </a>
+                  <span class="ms-1 d-none d-md-inline text-white"
+                    >users</span
+                  ></a
+                >
               </li>
+
               <li class="nav-item link-div" data-cat=".Home">
                 <a
                   href="employeAdmin.html"
@@ -73,25 +73,16 @@
                   >
                 </a>
               </li>
-
-              <li data-cat=".product" class="link-div">
-                <a
-                  href="p"
-                  data-bs-toggle="collapse"
-                  class="nav-link px-0 align-middle"
-                >
+              <li>
+                <a href="ProductAdmin.html" class="nav-link px-0 align-middle">
                   <i class="fa-solid fa-cart-shopping text-white"></i>
-                  <span class="ms-1 d-none d-md-inline" style="color: #fee715"
+                  <span class="ms-1 d-none d-md-inline text-white"
                     >product</span
                   ></a
                 >
               </li>
-
               <li>
-                <a
-                  href="AddProductAdmin.html"
-                  class="nav-link px-0 align-middle"
-                >
+                <a href="ProductAdmin.html" class="nav-link px-0 align-middle">
                   <i class="fa-solid fa-cart-shopping text-white"></i>
                   <span class="ms-1 d-none d-md-inline text-white"
                     >add product</span
@@ -110,9 +101,9 @@
                 >
               </li>
               <li>
-                <a href="cartAdmin.html" class="nav-link px-0 align-middle">
+                <a href="#" class="nav-link px-0 align-middle">
                   <i class="fa-solid fa-pen-to-square text-white"></i>
-                  <span class="ms-1 d-none d-md-inline text-white"
+                  <span class="ms-1 d-none d-md-inline" style="color: #fee715"
                     >show cart</span
                   ></a
                 >
@@ -128,11 +119,9 @@
                   >
                 </a>
               </li>
+
               <li class="nav-item link-div" data-cat=".Home">
-                <a
-                  href="MessageShowAdmin.html"
-                  class="nav-link align-middle px-0 me-auto"
-                >
+                <a href="" class="nav-link align-middle px-0 me-auto">
                   <i
                     class="fa-solid fa-arrow-right-from-bracket text-white"
                   ></i>
@@ -144,10 +133,10 @@
             </ul>
           </div>
         </div>
-        <!-- ------------- end in slide ----------  -->
+        <!-- ------------ end in slide ---------------  -->
 
         <!-- ----------- start in all div ----------- -->
-        <div class="col-10 my-5" id="ProductAdmin">
+        <div class="col-10 my-5" id="ShowCart">
           <div class="wishlist-box-main">
             <div class="container">
               <div class="row">
@@ -157,10 +146,11 @@
                       <thead>
                         <tr>
                           <th>Images</th>
-                          <th>Product Name</th>
-                          <th>Unit Price</th>
-                          <th>update product</th>
-                          <th>Remove</th>
+                          <th>name cart</th>
+                          <th>price</th>
+                          <th>count</th>
+                          <th>date</th>
+                          <th>addres</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -180,15 +170,14 @@
                           <td class="price-pr">
                             <p>$ 80.0</p>
                           </td>
-                          <td class="price-pr">
-                            <a href="UpdateProductAdmin.html">
-                              <button class="btn text-white">update</button>
-                            </a>
+                          <td class="count-pr">
+                            <p>20</p>
                           </td>
-                          <td class="remove-pr">
-                            <a href="#">
-                              <i class="fas fa-times text-danger"></i>
-                            </a>
+                          <td class="date-pr">
+                            <p>22/2/2022</p>
+                          </td>
+                          <td class="addres-pr">
+                            <p>damascus</p>
                           </td>
                         </tr>
                       </tbody>

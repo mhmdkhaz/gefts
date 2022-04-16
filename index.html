@@ -27,8 +27,16 @@
     <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- start nav -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- start in back to the top -->
+    <div class="backToTop" id="backToTop">
+      <button id="toTop">top</button>
+    </div>
+    <!-- end in back to the top -->
+    <!-- -------------------------- start nav ---------------------- -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light position-fixed"
+      id="navbar"
+    >
       <div class="container">
         <a class="navbar-brand" href="#">gefts</a>
         <button
@@ -45,19 +53,15 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
             <a aria-current="page" href="#" style="color: #fee715ff">Home</a>
-            <a href="services.html">services</a>
-            <a href="pricing.html">Pricing</a>
-            <a href="blog.html">blog</a>
             <a href="contact.html">contact</a>
-            <a href=""
-              ><i class="fa-solid fa-user" style="color: #fee715ff"></i
-            ></a>
-            <button type="button" class="btn text-light mx-5">log in</button>
+            <a href="product.html">product</a>
+            <a href="login.html">log in</a>
+            <a href="singup.html">singn up</a>
           </div>
         </div>
       </div>
     </nav>
-    <!-- end nav -->
+    <!-- --------------------------- end nav -------------------------------- -->
 
     <!-- start in slide -->
     <div
@@ -142,7 +146,7 @@
     <!-- end in slide -->
 
     <!-- start in about -->
-    <div class="about my-5">
+    <div class="about my-5" id="about">
       <div class="container">
         <h1 class="text-about text-center">about</h1>
         <div class="row">
